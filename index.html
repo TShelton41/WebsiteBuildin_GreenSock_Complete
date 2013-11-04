@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>FITC Greensock Workshop</title>
+    <meta name="description"
+          content="This is a workshop on how to implement Greensock tweening engine into your project">
+    <meta name="author" content="Todd Shelton">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<!--fullwidth bar. This has a darker background and is 960px wide-->
+<div class="fullwidthBar">
+    <nav>
+        <span>Home</span>
+        <span>Events</span>
+        <span>About</span>
+        <span>Contact</span>
+    </nav>
+</div>
+<div id="content-wrapper">
+
+    <!--this is the header and banner-->
+    <header class="clearfix">
+        <div id="gsGuy"><img src="images/gsGuy.png"/></div>
+        <span id="bigGS"><p>GSAP</p></span>
+
+        <div id="descText">
+            <p>The tweening library that will let<br>you do amazing things with JS & HTML</p>
+
+            <p>Tween DOM elements as<br>well as canvas elements</p>
+
+            <p>Works in modern browsers</p>
+
+            <div id="browserHolder">
+                <img src="images/ff.png">
+                <img src="images/chrome.png">
+                <img src="images/ie.png">
+                <img src="images/safari.png">
+                <img src="images/opera.png">
+            </div>
+        </div>
+
+        <div id="titleText" class="clearfix">
+            <h1>GreenSock</h1>
+
+            <h2>Animation Platform</h2>
+
+            <p>with</p>
+
+            <p>Todd Shelton</p>
+        </div>
+    </header>
+
+    <!--this is the events section of the page-->
+    <section id="events">
+        <div id="cal">
+            <img src="images/calendar.png">
+            <span>Events</span>
+        </div>
+        <div id="features">
+            <figure class="featurette"><img src="images/webFeaturette.png">
+                <figcaption>Web Unleashed<br>Boston, USA</figcaption>
+            </figure>
+            <figure class="featurette"><img src="images/spotFeaturette.png">
+                <figcaption>Web Unleashed<br>Boston, USA</figcaption>
+            </figure>
+            <figure class="featurette"><img src="images/amFeaturette.png">
+                <figcaption>Web Unleashed<br>Boston, USA</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!--this is the info section of the page-->
+    <section id="info" class="clearfix">
+        <div id="about">
+            <h3>About Todd</h3>
+
+            <p>Bacon ipsum dolor sit amet ground round drumstick shankle sirloin jerky commodo, filet mignon duis
+               cupidatat bacon veniam ham ut pancetta. Pork aliquip swine, in voluptate sirloin pork chop exercitation.
+               Chicken pork loin strip steak tri-tip. Reprehenderit frankfurter doner pork belly sint sed tail ut. Ad
+               laborum in leberkas officia velit pork labore turkey.</p>
+
+            <p>Magna kielbasa meatball drumstick dolor chicken est pork chop sirloin shankle. Ut deserunt consectetur,
+               ham capicola spare ribs aliqua tail. Duis nisi sunt bresaola proident, excepteur jowl drumstick t-bone
+               meatball. Strip steak hamburger reprehenderit, qui meatball aliqua frankfurter prosciutto. Shank kevin
+               culpa adipisicing exercitation ullamco filet mignon do laboris brisket pastrami. Pork chop dolor sint,
+               ham hock nostrud laborum biltong nisi quis. Tri-tip frankfurter dolor voluptate pig shoulder culpa doner
+               beef ribs.</p>
+
+            <p>Occaecat mollit velit consequat. Occaecat fatback quis ut swine mollit ex duis officia ut eu ribeye in
+               brisket. Beef excepteur tenderloin ea spare ribs, magna cupidatat. Est kielbasa ball tip, rump irure
+               adipisicing aute officia consectetur tri-tip filet mignon kevin culpa in. Irure nostrud ex, anim tongue
+               hamburger tail. Tempor deserunt non dolor pork chop beef frankfurter officia meatloaf capicola pancetta
+               prosciutto exercitation.</p>
+        </div>
+        
+        <div id="contact">
+            <img src="images/nice_cigar.jpg">
+        </div>
+    </section>
+
+    <!--footer section-->
+    <footer>
+        copyright &copy; Todd Shelton 2013 all rights reserved
+    </footer>
+</div>
+
+<!--imported scripts to make project operate-->
+<script type="text/javascript" src="vendor/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="vendor/jquery.gsap.min.js"></script>
+<script type="text/javascript" src="vendor/TweenMax.min.js"></script>
+
+<script src="js/Animation.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
